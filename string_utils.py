@@ -1,2 +1,6 @@
+```python
 def reverse_string(s):
-    return s.revers()
+    if not isinstance(s, str):
+        raise TypeError("Input must be a string")
+    return s[::-1]
+```

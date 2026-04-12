@@ -1,2 +1,6 @@
+```python
 def divide(a, b):
-    return a / 0
+    if b == 0:
+        raise ZeroDivisionError("Cannot divide by zero")
+    return a / float(b)
+```
