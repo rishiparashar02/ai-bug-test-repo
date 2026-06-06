@@ -1,5 +1,5 @@
-```python
 from math import gcd
+
 
 def divide(a, b):
     if b == 0:
@@ -18,4 +18,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
