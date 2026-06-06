@@ -1,2 +1,4 @@
+```python
 def reverse_string(s):
-    return s.revers()
+    return s[::-1]
+```

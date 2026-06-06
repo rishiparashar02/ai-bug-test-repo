@@ -1,3 +1,9 @@
-from math.utils import divide
+```python
+from math import gcd
+from fractions import Fraction
 
-print(divide(10,2))
+def divide(a, b):
+    return Fraction(a, b)
+
+print(divide(10, 2))
+```
